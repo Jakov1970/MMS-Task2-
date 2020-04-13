@@ -4,7 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 
-//GITHUB link 
+
+//---------------------------------------------------
+//
+//GITHUB link https://github.com/Jakov1970/MMS-Task2- 
+//za slucaj da ne mozete da se snadjete 
+//
+//---------------------------------------------------
+
 
 namespace MeanRemovalAndSphere
 {
@@ -52,7 +59,7 @@ namespace MeanRemovalAndSphere
             Point[,] pt = new Point[nWidth, nHeight];
 
             Point mid = new Point();
-            mid.X = nWidth / 3;
+            mid.X = nWidth / 2;
             mid.Y = nHeight / 2;
 
             double theta, radius;
@@ -114,7 +121,7 @@ namespace MeanRemovalAndSphere
                 {
                     xOffset = offset[x, y].X;
                     yOffset = offset[x, y].Y;
-
+                              
                     if (yOffset >= 0 && yOffset < b.Height && xOffset >= 0 && xOffset < b.Width)
                     {
                         Color c1 = b.GetPixel(x, y);
@@ -134,9 +141,7 @@ namespace MeanRemovalAndSphere
                     }
                 }
             }
-
-
-
+            
             return true;
 
         }

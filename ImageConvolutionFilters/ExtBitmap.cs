@@ -1,9 +1,4 @@
-﻿/*
- * The Following Code was developed by Dewald Esterhuizen
- * View Documentation at: http://softwarebydefault.com
- * Licensed under Ms-PL 
-*/
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +6,14 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 using System.Drawing.Drawing2D;
+
+//---------------------------------------------------
+//
+//GITHUB link https://github.com/Jakov1970/MMS-Task2- 
+//za slucaj da ne mozete da se snadjete 
+//
+//---------------------------------------------------
+
 
 namespace MeanRemovalAndSphere
 {

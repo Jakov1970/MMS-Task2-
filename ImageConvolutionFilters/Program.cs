@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
+//---------------------------------------------------
+//
+//GITHUB link https://github.com/Jakov1970/MMS-Task2- 
+//za slucaj da ne mozete da se snadjete 
+//
+//---------------------------------------------------
+
 namespace MeanRemovalAndSphere
 {
     static class Program

@@ -1,9 +1,4 @@
-﻿/*
- * The Following Code was developed by Dewald Esterhuizen
- * View Documentation at: http://softwarebydefault.com
- * Licensed under Ms-PL 
-*/
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +8,14 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Drawing.Imaging;
+
+//---------------------------------------------------
+//
+//GITHUB link https://github.com/Jakov1970/MMS-Task2- 
+//za slucaj da ne mozete da se snadjete 
+//
+//---------------------------------------------------
+
 
 namespace MeanRemovalAndSphere
 {
@@ -29,7 +32,7 @@ namespace MeanRemovalAndSphere
             List<FilterBase> filterList = new List<FilterBase>();
 
             filterList.Add(new MeanRemoval());
-            filterList.Add(new SphereFilter());
+            //filterList.Add(new SphereFilter());
 
             cmbFilterType.DataSource = filterList;
             cmbFilterType.DisplayMember = "FilterName";
